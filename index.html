@@ -11,49 +11,87 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- font awsome -->
     <script src="https://kit.fontawesome.com/4687423c60.js" crossorigin="anonymous"></script>
-    <!-- style -->
+    <!-- style sheet -->
     <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
-    <header>
+    <!-- header part -->
 
-        <section class="container-fluid">
-            <div class="row bg-info">
-                <div class="col-12 col-md-6">
-                    <h5>Computer-controlled digital transistorized with electronic advance</h5>
-                    <h1>Honda CBR 300R</h1>
-                    <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis ipsam hic sunt quia deserunt
-                        suscipit. Repellendus magni voluptate sapiente, soluta minima, nesciunt distinctio vel ratione
-                        eaque dolor temporibus minus aliquid.</h4>
+    <header class="head p-5">
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent ">
+            <div class="container-fluid ">
+                <div class="collapse navbar-collapse text-white" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item me-5">
+                            <a class="nav-link text-white" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item me-5">
+                            <a class="nav-link  text-white" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item me-5">
+                            <a class="nav-link  text-white" aria-current="page" href="#">News</a>
+                        </li>
+                        <li class="nav-item me-5">
+                            <a class="nav-link  text-white" href="#">Contact</a>
+                        </li>
+                        <button class="btn me-5 py-2 px-4"
+                            style="background-color:#E76F51; color:white; margin-left: 80px; font-size: 1.2em;">Login</button>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- heading part -->
+
+        <section class="container container-fluid mt-5">
+            <div class="row head  align-items-center justify-content-between">
+                <div class="col-sm-12 col-md-6">
+                    <p style="font-size:1.2em" class="basic-text">Computer-controlled digital transistorized with
+                        electronic advance</p>
+                    <h1 class="basic-text mb-5" style="font-size:4em; font-weight:bold">Honda CBR 300R</h1>
+                    <p class="basic-text" style="font-size:1.3em">If you’ve got a soft spot for sportbike design and
+                        Grand Prix stylings, then the 2021 Honda CBR300R is your sweet spot between form and function.
+                        It’s narrow, light, and a total blast to ride around town and on twisty back roads. The
+                        single-cylinder engine offers great fuel economy, with smooth and friendly torque delivery. And
+                        the affordable cost and responsive handling makes it a terrific bike for first-time riders, and
+                        for those looking to grow their garage. There’s even a version available with our anti-lock
+                        braking system. Plus, this year the CBR300R brings hot new graphics in two color choices. Time
+                        to get riding!</p>
+
                     <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                        Parches
+                    <button type="button" class="btn new py-2 px-5" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        <h5 style="font-weight: bold;">purchase</h5>
                     </button>
 
                     <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    <div class=" modal fade xl" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                         aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <h5 class="modal-title" id="exampleModalLabel">Purchase</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
+                                    <button class=" btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
-                                    Do you want to purchase? Click on Buy Online
+                                    <h2 class="text-center text-dark">Welcome to Purchase</h2>
+                                    <p class="text-dark">The good news for Honda motorcycle users, fan-followers and
+                                        well-wishers is that we have mentioned on this web page the current prices of
+                                        Honda bikes or motorcycles in Bangladesh or BD, as well as the latest pictures
+                                        and a brief description of each and every models which is currently available in
+                                        Bangladesh.</p>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                    <button type="button" class="btn btn-danger " data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-warning">Save changes</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6">
-                    <img clss="img-fluid" src="./images/header-bike.png" alt="">
+                <div class="col-sm-12 col-md-6">
+                    <img class="img-fluid w-100" src="./images/header-bike.png" alt="">
                 </div>
             </div>
         </section>
@@ -62,22 +100,23 @@
     <main>
         <!-- featuter bikes -->
 
-        <section class="container text-center my-5">
-            <p class="fs-2 fw-bold">Featured Bikes 2021</p>
-            <p class="fs-6 fw-bold clr-p text-decoration-underline">Best Bike Collection</p>
+        <section class="text-center my-5" style="padding: 0 10vw">
+            <h1 class="mb-2" style="font-size:3em; font-weight:900">Featured Bikes 2021</h1>
+            <h5 class="fs-6 fw-bold " style="margin-bottom: 20vh;"> <span
+                    style="border-bottom: 2px solid #E76F51; ">Best
+                    Bike
+                    Collection</span>
+            </h5>
 
-            <div class="card-group m-10">
-                <div class="card">
-                    <img class="gray-scale img-fluid" src="./images/feature-bike.jpg" alt="...">
-
+            <div class="row justify-content-between">
+                <div class="col-md-4 col-sm-12">
+                    <img class="img-fluid gray-scale" src="./images/feature-bike.jpg" alt="">
                 </div>
-                <div class="card">
-                    <img class="img-fluid" src="./images/feature-bike.jpg" alt="...">
-
+                <div class="col-md-4 col-sm-12">
+                    <img class="img-fluid" src="./images/feature-bike.jpg" alt="">
                 </div>
-                <div class="card">
-                    <img class="gray-scale img-fluid" src="./images/feature-bike.jpg" alt="...">
-
+                <div class="col-md-4 col-sm-12">
+                    <img class="img-fluid gray-scale" src="./images/feature-bike.jpg" alt="">
                 </div>
             </div>
         </section>
@@ -85,74 +124,72 @@
 
         <!-- happy clients -->
 
-        <!-- <section class="container mt-5"> -->
-        <section class="container">
-            <div class="dont-kno">
-                <h1 class="text-center">Happy <span class="clr-p">Client says</span></h1>
-
-                <!-- time -->
-                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <section class="container mt-5">
+            <div>
+                <h1 class="text-center" style="font-size:3.3em; font-weight: bold; margin: 10vh 0">Happy <span>Client
+                        says</span></h1>
+                <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 g-4">
                     <div class="col">
-                        <div class="card border-0 shadow-lg h-100 text-center">
+                        <div class="card border-0 shadow-lg  text-center py-5 px-3">
                             <img src="images/user-1.png"
                                 class="rounded-circle align-items-center mx-auto user img-fluid" alt="...">
-                            <blockquote>Slate helps you see how
-                                many more days you need
-                                to work to reach your financial
-                                goal for the month and year.</blockquote>
+                            <blockquote>The Honda has very obviously been manufactured with low cost in mind. The simple
+                                black swingarm, run-of-the-mill black wheels, plasticky grips and rubber-covered
+                                footpegs attached to basic hangers all smack of attention to budget.</blockquote>
                             <div class="card-body">
                                 <div class="star">
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
 
                                 </div>
-                                <h5 class="card-title">Regina Miles</h5>
-                                <h5>Banker</h5>
+                                <h5 class="card-title text-info fw-bold">Regina Miles</h5>
+                                <h5 class="fw-bold">Banker</h5>
                             </div>
 
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card border-0 shadow-lg h-100 text-center">
+                        <div class="card border-0 shadow-lg h-100 text-center py-5 px-3">
                             <img src="images/user-2.png"
                                 class="rounded-circle align-items-center mx-auto user img-fluid" alt="...">
-                            <blockquote>Slate helps you see how
-                                many more days you need
-                                to work to reach your financial
-                                goal for the month and year.</blockquote>
+                            <blockquote>The Honda has very obviously been manufactured with low cost in mind. The simple
+                                black swingarm, run-of-the-mill black wheels, plasticky grips and rubber-covered
+                                footpegs attached to basic hangers all smack of attention to budget.</blockquote>
                             <div class="card-body">
                                 <div class="star">
+                                    <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
                                     <i class="far fa-star"></i>
 
                                 </div>
-                                <h5 class="card-title">Regina Miles</h5>
-                                <h5>Banker</h5>
+                                <h5 class="card-title text-info fw-bold">Soffe lorren</h5>
+                                <h5 class="fw-bold">Banker</h5>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card border-0 shadow-lg h-100 text-center">
+                        <div class="card border-0 shadow-lg h-100 text-center py-5 px-3">
                             <img src="images/user-3.jpg"
                                 class="rounded-circle align-items-center mx-auto user img-fluid" alt="...">
-                            <blockquote>Slate helps you see how
-                                many more days you need
-                                to work to reach your financial
-                                goal for the month and year.</blockquote>
+                            <blockquote>The Honda has very obviously been manufactured with low cost in mind. The simple
+                                black swingarm, run-of-the-mill black wheels, plasticky grips and rubber-covered
+                                footpegs attached to basic hangers all smack of attention to budget.</blockquote>
                             <div class="card-body">
                                 <div class="star">
+                                    <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
                                     <i class="far fa-star"></i>
 
                                 </div>
-                                <h5 class="card-title">Regina Miles</h5>
-                                <h5>Banker</h5>
+                                <h5 class="card-title text-info fw-bold">Melina stark</h5>
+                                <h5 class="fw-bold">Banker</h5>
                             </div>
                         </div>
                     </div>
@@ -160,15 +197,17 @@
             </div>
         </section>
 
-
+        <!-- Frequently askek questions -->
 
         <section class="container my-5">
-            <h3 class="text-center">Frequently Asked <span>Questions</span></h3>
-            <div class=d-flex align-items-center>
-                <div>
-                    <img class="w-100 img-fluid" src="./images/faq.png" alt="">
+            <div style="margin: 10vh 0">
+                <h3 class="text-center" style="font-size:3.3em">Frequently Asked <span>Questions</span></h3>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-6 col-sm-12">
+                    <img class="img-fluid" src="./images/faq.png" alt="">
                 </div>
-                <div>
+                <div style="max-width: 100%; min-width:50%" class="col-md-6 col-sm-12">
                     <div class="mx-5">
                         <div class="accordion" id="accordionExample">
                             <div class="accordion-item">
@@ -228,15 +267,15 @@
                                 </div>
                             </div><br>
                             <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingThree">
+                                <h2 class="accordion-header" id="headingFour">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseThree" aria-expanded="false"
-                                        aria-controls="collapseThree">
+                                        data-bs-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
                                         What rules should I follow when riding my bike
                                     </button>
                                 </h2>
-                                <div id="collapseThree" class="accordion-collapse collapse"
-                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                    data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
                                         Safety First! Always obey the rules of the road. Obey all traffic
                                         signals, signs, and laws. Get in the mindset of “driving” your
@@ -247,61 +286,111 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>
 
-        <!-- submit area -->
+        <!-- sliders -->
 
-        <section class="container-form">
-            <h1>Buy online</h1>
-            <form action="submit">
-                <label for="name">Your Name: <input type="text" placeholder="Your name"></label> <br>
+        <div class="container mb-5">
+            <h1 class="text-center py-5 fw-bold">Upcoming <span>Bikes</span> </h1>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./images/bike-1.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block text-dark p-5 bg-white">
+                            <h5>Royal Enfield Bullet 350</h5>
+                            <p>Select models of the Bullet 350, manufactured and sold between January and April 2021,
+                                have been recalled by Royal Enfield. Head here to know why?
 
-                <label for="email">
-                    Your Email: <input type="text" placeholder="Your email address"></label> <br>
-                <label for="date"><input type="date"> </label>
-                <p>Price $400</p>
-                <input type="submit" value="Submit">
-            </form>
+                                Royal Enfield hiked the prices of the Bullet 350 and the Bullet 350 ES for the fourth
+                                time this year. The price has been bumped up by Rs 10,164 for the electric start
+                                variant. Head to the main story to check out the new price list.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/bike-2.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block text-dark p-5 bg-white">
+                            <h5>TVS Apache RTR 160 4V</h5>
+                            <p>In May 2021, TVS hiked the price of the Apache RTR 160 4V and its variants by Rs 1250.
+                                The rear drum brake-equipped variant retails at Rs 1,08,565, whereas the one with the
+                                rear disc costs Rs 1,11,615 (both ex-showroom Delhi). Thankfully, the prices haven’t
+                                been hiked again this month.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/bike-3.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block text-dark p-5 bg-white">
+                            <h5>Ducati Pulsar 150</h5>
+                            <p>The asking price of the base version of the Bajaj Pulsar 150 is now nearing the Rs 1 lakh
+                                mark. The iconic motorcycle has become quite expensive in recent times with no real
+                                updates provided to the bike to justify the extra asking price.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <section style="margin: 10vh 0">
+            <h1 style="font-size:3.3em" class="text-center">Our <span>Partners</span> </h1>
+            <div class="mt-5 container">
+                <img src="./images/download.png" class="w-100 img-fluid" alt="">
+            </div>
         </section>
 
-        <!-- comment area -->
-
-        <div class="container-form">
-            <h1>Give us your feedback</h1>
-            <form action="submit">
-                <label for="name">Your Name: <input type="text" placeholder="Your name"></label> <br>
-
-                <label for="email">
-                    Your Email: <input type="text" placeholder="Your email address"></label>
-                </label> <br>
-                <label for="comment"> Your Comment:
-                    <textarea name="comment" id="" cols="30" rows="10" placeholder="Your feedback"></textarea>
-                </label> <br>
-                <input type="submit" value="Submit">
-            </form>
-        </div>
     </main>
 
-    <footer>
-
-    </footer>
-
-
-
-
-
-
-
-
-
+    <!-- footer section -->
 
     <footer>
+        <div class="row bg-dark text-white p-5 w-100 align-items-end">
+            <div class="col-md-10 col-sm-12">
+                <ul class="d-flex flex-wrap" style="list-style: none;">
+                    <li class="me-3 fs-5">Download Now</li>
+                    <li class="me-3 fs-5">License</li>
+                </ul>
+                <div>
+                    <ul style="list-style: none;" class="d-flex flex-wrap">
+                        <li class="me-3 fs-5">About</li>
+                        <li class="me-3 fs-5">Features</li>
+                        <li class="me-3 fs-5">Pricing</li>
+                        <li class="me-3 fs-5">Careers</li>
+                        <li class="me-3 fs-5">Help</li>
+                        <li class="me-3 fs-5">Privacy Policy</li>
+                    </ul>
+                </div>
 
+                <div class=" ps-4 mt-5">
+                    <p>&copy; 2020bike. All rights reserved</p>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-12 justify-content-end">
+                <h3>Get The App</h3>
+                <img src="./images/App Store Badge.png" class="img-fluid my-3" alt=""> <br>
+                <img src="./images/Layer 2.png" alt="">
+            </div>
+        </div>
     </footer>
 
+    <!-- script tag -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
